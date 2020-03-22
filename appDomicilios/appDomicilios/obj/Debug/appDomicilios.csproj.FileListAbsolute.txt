@@ -1,0 +1,5 @@
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csprojAssemblyReference.cache
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.CamaraComercio.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Form1.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.InterfazPrincipal.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.GenerateResource.cache
