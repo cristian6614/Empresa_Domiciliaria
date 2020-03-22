@@ -10,3 +10,15 @@ D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicil
 D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.Properties.Resources.resources
 D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.exe
 D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.pdb
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\bin\Debug\appDomicilios.exe.config
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\bin\Debug\appDomicilios.exe
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\bin\Debug\appDomicilios.pdb
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\bin\Debug\Oracle.DataAccess.dll
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csprojAssemblyReference.cache
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Form1.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.InterfazPrincipal.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Properties.Resources.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.GenerateResource.cache
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.CopyComplete
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.exe
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.pdb

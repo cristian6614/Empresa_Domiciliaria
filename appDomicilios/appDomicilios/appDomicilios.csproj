@@ -64,6 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accesoDatos\Datos.cs" />
+    <Compile Include="camaraComercio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="camaraComercio.Designer.cs">
+      <DependentUpon>camaraComercio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
