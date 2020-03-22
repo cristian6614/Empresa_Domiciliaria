@@ -19,7 +19,7 @@ namespace appDomicilios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            camaraComercio obj = new camaraComercio();
+            CamaraComercio obj = new CamaraComercio();
             this.Hide();
             obj.Show();
         }

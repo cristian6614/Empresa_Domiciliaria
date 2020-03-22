@@ -64,11 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accesoDatos\Datos.cs" />
-    <Compile Include="camaraComercio.cs">
+    <Compile Include="CamaraComercio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="camaraComercio.Designer.cs">
-      <DependentUpon>camaraComercio.cs</DependentUpon>
+    <Compile Include="CamaraComercio.Designer.cs">
+      <DependentUpon>CamaraComercio.cs</DependentUpon>
     </Compile>
     <Compile Include="Domiciliario.cs">
       <SubType>Form</SubType>
@@ -95,13 +95,13 @@
       <DependentUpon>InterfazPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="logica\Animal.cs" />
-    <Compile Include="logica\CamaraComercio.cs" />
-    <Compile Include="logica\Domiciliario.cs" />
-    <Compile Include="logica\EmpresaDomiciliaria.cs" />
-    <Compile Include="logica\Program.cs" />
+    <Compile Include="logica\clsCamaraComercio.cs" />
+    <Compile Include="logica\clsDomiciliario.cs" />
+    <Compile Include="logica\clsEmpresaDomiciliaria.cs" />
+    <Compile Include="logica\clsProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="camaraComercio.resx">
-      <DependentUpon>camaraComercio.cs</DependentUpon>
+    <EmbeddedResource Include="CamaraComercio.resx">
+      <DependentUpon>CamaraComercio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Domiciliario.resx">
       <DependentUpon>Domiciliario.cs</DependentUpon>

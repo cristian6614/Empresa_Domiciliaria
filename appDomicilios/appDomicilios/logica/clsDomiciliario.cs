@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace appDomicilios.logica
 {
-    class EmpresaDomiciliaria
+    class clsDomiciliario
     {
     }
 }
