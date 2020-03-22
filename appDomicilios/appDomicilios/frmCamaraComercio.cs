@@ -24,8 +24,9 @@ namespace appDomicilios
 
             String nombre = null;
             int identificacion = 0, resultado = 0;
-            nombre = txtIdentificacion.Text;
-            identificacion = int.Parse (txtNombre.Text);
+            nombre = txtNombre.Text;
+            identificacion = int.Parse (txtIdentificacion.Text);
+       
 
             resultado = objCamara.registrarCamaraComercio(identificacion, nombre);
             if (resultado > 0)
