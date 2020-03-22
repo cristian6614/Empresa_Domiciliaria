@@ -101,6 +101,12 @@
     <EmbeddedResource Include="camaraComercio.resx">
       <DependentUpon>camaraComercio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Domiciliario.resx">
+      <DependentUpon>Domiciliario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpresaDomiciliaria.resx">
+      <DependentUpon>EmpresaDomiciliaria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -132,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Recursos\dog.ico" />
+    <Content Include="Recursos\domicilios.jpg" />
     <Content Include="Recursos\veterinaria.jpg" />
     <None Include="Resources\veterinaria.jpg" />
   </ItemGroup>
