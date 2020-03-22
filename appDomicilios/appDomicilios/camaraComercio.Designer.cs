@@ -31,11 +31,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtIdentificacion = new System.Windows.Forms.TextBox();
             this.lbMensaje = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.tblIdentificacion = new System.Windows.Forms.Label();
+            this.tblNombre = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -52,12 +52,12 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.tblNombre);
+            this.tabPage1.Controls.Add(this.tblIdentificacion);
             this.tabPage1.Controls.Add(this.lbMensaje);
             this.tabPage1.Controls.Add(this.button1);
-            this.tabPage1.Controls.Add(this.textBox2);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.txtNombre);
+            this.tabPage1.Controls.Add(this.txtIdentificacion);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -76,19 +76,19 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox2
+            // txtNombre
             // 
-            this.textBox2.Location = new System.Drawing.Point(302, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtNombre.Location = new System.Drawing.Point(302, 120);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 20);
+            this.txtNombre.TabIndex = 4;
             // 
-            // textBox1
+            // txtIdentificacion
             // 
-            this.textBox1.Location = new System.Drawing.Point(302, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtIdentificacion.Location = new System.Drawing.Point(302, 79);
+            this.txtIdentificacion.Name = "txtIdentificacion";
+            this.txtIdentificacion.Size = new System.Drawing.Size(100, 20);
+            this.txtIdentificacion.TabIndex = 3;
             // 
             // lbMensaje
             // 
@@ -100,25 +100,25 @@
             this.lbMensaje.TabIndex = 6;
             this.lbMensaje.Text = "Ingrese los datos de la camara de comercio";
             // 
-            // label1
+            // tblIdentificacion
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(146, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 16);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Identificación";
+            this.tblIdentificacion.AutoSize = true;
+            this.tblIdentificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tblIdentificacion.Location = new System.Drawing.Point(146, 79);
+            this.tblIdentificacion.Name = "tblIdentificacion";
+            this.tblIdentificacion.Size = new System.Drawing.Size(100, 16);
+            this.tblIdentificacion.TabIndex = 7;
+            this.tblIdentificacion.Text = "Identificación";
             // 
-            // label3
+            // tblNombre
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(163, 120);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 16);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Nombre:";
+            this.tblNombre.AutoSize = true;
+            this.tblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tblNombre.Location = new System.Drawing.Point(163, 120);
+            this.tblNombre.Name = "tblNombre";
+            this.tblNombre.Size = new System.Drawing.Size(67, 16);
+            this.tblNombre.TabIndex = 8;
+            this.tblNombre.Text = "Nombre:";
             // 
             // label2
             // 
@@ -151,11 +151,11 @@
 
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtIdentificacion;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label tblNombre;
+        private System.Windows.Forms.Label tblIdentificacion;
         private System.Windows.Forms.Label lbMensaje;
         private System.Windows.Forms.Label label2;
     }
