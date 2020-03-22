@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace appDomicilios
 {
-    public partial class Domiciliario : Form
+    public partial class frmDomiciliario : Form
     {
-        public Domiciliario()
+        public frmDomiciliario()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace appDomicilios
 {
-    partial class EmpresaDomiciliaria
+    partial class frmEmpresaDomiciliaria
     {
         /// <summary>
         /// Required designer variable.

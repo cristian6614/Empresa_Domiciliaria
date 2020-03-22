@@ -16,12 +16,12 @@ C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilio
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\bin\Debug\Oracle.DataAccess.dll
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csprojAssemblyReference.cache
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Form1.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.InterfazPrincipal.resources
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Properties.Resources.resources
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.GenerateResource.cache
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.CopyComplete
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.exe
 C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.pdb
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.camaraComercio.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Domiciliario.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.EmpresaDomiciliaria.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.frmCamaraComercio.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.frmDomiciliario.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.frmEmpresaDomiciliaria.resources
+C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.frmInterfazPrincipal.resources

@@ -64,23 +64,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="accesoDatos\Datos.cs" />
-    <Compile Include="CamaraComercio.cs">
+    <Compile Include="frmCamaraComercio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CamaraComercio.Designer.cs">
-      <DependentUpon>CamaraComercio.cs</DependentUpon>
+    <Compile Include="frmCamaraComercio.Designer.cs">
+      <DependentUpon>frmCamaraComercio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Domiciliario.cs">
+    <Compile Include="frmDomiciliario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Domiciliario.Designer.cs">
-      <DependentUpon>Domiciliario.cs</DependentUpon>
+    <Compile Include="frmDomiciliario.Designer.cs">
+      <DependentUpon>frmDomiciliario.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmpresaDomiciliaria.cs">
+    <Compile Include="frmEmpresaDomiciliaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmpresaDomiciliaria.Designer.cs">
-      <DependentUpon>EmpresaDomiciliaria.cs</DependentUpon>
+    <Compile Include="frmEmpresaDomiciliaria.Designer.cs">
+      <DependentUpon>frmEmpresaDomiciliaria.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -88,11 +88,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="InterfazPrincipal.cs">
+    <Compile Include="frmInterfazPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InterfazPrincipal.Designer.cs">
-      <DependentUpon>InterfazPrincipal.cs</DependentUpon>
+    <Compile Include="frmInterfazPrincipal.Designer.cs">
+      <DependentUpon>frmInterfazPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="logica\Animal.cs" />
     <Compile Include="logica\clsCamaraComercio.cs" />
@@ -100,20 +100,20 @@
     <Compile Include="logica\clsEmpresaDomiciliaria.cs" />
     <Compile Include="logica\clsProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CamaraComercio.resx">
-      <DependentUpon>CamaraComercio.cs</DependentUpon>
+    <EmbeddedResource Include="frmCamaraComercio.resx">
+      <DependentUpon>frmCamaraComercio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Domiciliario.resx">
-      <DependentUpon>Domiciliario.cs</DependentUpon>
+    <EmbeddedResource Include="frmDomiciliario.resx">
+      <DependentUpon>frmDomiciliario.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmpresaDomiciliaria.resx">
-      <DependentUpon>EmpresaDomiciliaria.cs</DependentUpon>
+    <EmbeddedResource Include="frmEmpresaDomiciliaria.resx">
+      <DependentUpon>frmEmpresaDomiciliaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InterfazPrincipal.resx">
-      <DependentUpon>InterfazPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="frmInterfazPrincipal.resx">
+      <DependentUpon>frmInterfazPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
