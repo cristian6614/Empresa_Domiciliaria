@@ -70,18 +70,6 @@
     <Compile Include="camaraComercio.Designer.cs">
       <DependentUpon>camaraComercio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Domiciliario.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Domiciliario.Designer.cs">
-      <DependentUpon>Domiciliario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EmpresaDomiciliaria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EmpresaDomiciliaria.Designer.cs">
-      <DependentUpon>EmpresaDomiciliaria.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,9 +86,6 @@
     <Compile Include="logica\CamaraComercio.cs" />
     <Compile Include="logica\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="camaraComercio.resx">
-      <DependentUpon>camaraComercio.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
