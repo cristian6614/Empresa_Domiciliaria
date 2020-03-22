@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,10 +53,19 @@
     <Compile Include="Empresa Domiciliaria.Designer.cs">
       <DependentUpon>Empresa Domiciliaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="interfazPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="interfazPrincipal.Designer.cs">
+      <DependentUpon>interfazPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Empresa Domiciliaria.resx">
       <DependentUpon>Empresa Domiciliaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="interfazPrincipal.resx">
+      <DependentUpon>interfazPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
