@@ -1,5 +1,12 @@
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csprojAssemblyReference.cache
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.CamaraComercio.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.Form1.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.InterfazPrincipal.resources
-C:\Users\MATIAS\Documents\GitHub\Empresa_Domiciliaria\appDomicilios\appDomicilios\obj\Debug\appDomicilios.csproj.GenerateResource.cache
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.csprojAssemblyReference.cache
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.Form1.resources
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.csproj.GenerateResource.cache
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\bin\Debug\Oracle.DataAccess.dll
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.csproj.CopyComplete
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\bin\Debug\appDomicilios.exe.config
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\bin\Debug\appDomicilios.exe
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\bin\Debug\appDomicilios.pdb
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.InterfazPrincipal.resources
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.Properties.Resources.resources
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.exe
+D:\u\diapositivas bases\drive-download-20200307T163233Z-001\Cuso .NET\appDomicilios\obj\Debug\appDomicilios.pdb

@@ -1,0 +1,11 @@
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\bin\Debug\appRegistroVeterinario.exe.config
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\bin\Debug\appRegistroVeterinario.exe
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\bin\Debug\appRegistroVeterinario.pdb
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.csprojAssemblyReference.cache
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.Form1.resources
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.Properties.Resources.resources
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.csproj.GenerateResource.cache
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.exe
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.pdb
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\bin\Debug\Oracle.DataAccess.dll
+C:\Users\WINDOWS\source\repos\appRegistroVeterinario\obj\Debug\appRegistroVeterinario.csproj.CopyComplete
