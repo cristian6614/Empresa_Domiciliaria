@@ -96,6 +96,8 @@
     </Compile>
     <Compile Include="logica\Animal.cs" />
     <Compile Include="logica\CamaraComercio.cs" />
+    <Compile Include="logica\Domiciliario.cs" />
+    <Compile Include="logica\EmpresaDomiciliaria.cs" />
     <Compile Include="logica\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="camaraComercio.resx">
