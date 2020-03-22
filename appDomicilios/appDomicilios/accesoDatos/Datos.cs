@@ -10,7 +10,7 @@ namespace appDomicilios.accesoDatos
         //incluir en using la referencia a Oracle
 
         //Paso 1: creo la cadena de conexion
-        string cadenaConexion = "Data Source = localhost; User ID = domicilios; Password = oracle";
+        string cadenaConexion = "Data Source = localhost; User ID = DOMICILIARIA; Password = 1234";
 
 
         //paso 2: creo el método que ejecuta una consulta DML(insert,update,delete)
