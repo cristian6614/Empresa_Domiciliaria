@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OracleClient;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +15,7 @@ namespace appDomicilios
 {
     public partial class frmEmpresaDomiciliaria : Form
     {
+        string cadenaConexion = "Data Source = localhost; User ID = domicilios; Password = 1234";
 
         clsEmpresaDomiciliaria objempresa = new clsEmpresaDomiciliaria();
         clsCamaraComercio objcamcomercio = new clsCamaraComercio();
@@ -38,9 +41,7 @@ namespace appDomicilios
             fecha.Format = DateTimePickerFormat.Custom;
 
             int camNit = objcamcomercio.getcodigo();
-            MessageBox.Show("camNit " + camNit, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
+           
             nombre = txtNombreEmp.Text;
             nit = int.Parse(txtNitEmp.Text);
             fecha = dtpFechaAperturaEmp;
@@ -65,15 +66,7 @@ namespace appDomicilios
 
         }
 
-        private void btnConsultarCamComercio_Click(object sender, EventArgs e)
-        {
-            //creo un dataset vacio
-            DataSet dsResultado = new DataSet();
-            dsResultado = objcamcomercio.consultarRegistros();
-            dgvDatos.DataSource = dsResultado;
-            dgvDatos.DataMember = "ResultadoDatos";
-
-        }
+        
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -86,6 +79,30 @@ namespace appDomicilios
         }
 
         private void cbxCamaraComercioConsultar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        public void btnConsultarCamComercio_Click(object sender, EventArgs e)
+        {
+
+            OracleConnection miConexion = new OracleConnection(cadenaConexion);
+            OracleCommand miComando = new OracleCommand("select camid from camaracomercio", miConexion);
+            miConexion.Open();
+            OracleDataReader registro = miComando.ExecuteReader();
+            while (registro.Read()) {
+                cbxCamaComer.Items.Add(registro["camId"].ToString());
+            }
+            miConexion.Close();        
+
+            //creo un dataset vacio
+            DataSet dsResultado = new DataSet();
+            dsResultado = objcamcomercio.consultarRegistros();
+            dgvDatos.DataSource = dsResultado;
+            dgvDatos.DataMember = "ResultadoDatos";
+
+        }
+
+        private void lblIdCamCom_Click(object sender, EventArgs e)
         {
 
         }

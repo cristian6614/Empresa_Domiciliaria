@@ -30,6 +30,9 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.pnlConsulta = new System.Windows.Forms.Panel();
+            this.dgvDatos = new System.Windows.Forms.DataGridView();
+            this.btnConsultarCamComercio = new System.Windows.Forms.Button();
             this.dtpFechaAperturaEmp = new System.Windows.Forms.DateTimePicker();
             this.lblFechaApertura = new System.Windows.Forms.Label();
             this.btnRegistratEmprDom = new System.Windows.Forms.Button();
@@ -39,9 +42,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnConsultarCamComercio = new System.Windows.Forms.Button();
-            this.pnlConsulta = new System.Windows.Forms.Panel();
-            this.dgvDatos = new System.Windows.Forms.DataGridView();
+            this.cbxCamaComer = new System.Windows.Forms.ComboBox();
+            this.lblIdCamCom = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.pnlConsulta.SuspendLayout();
@@ -60,6 +62,8 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.lblIdCamCom);
+            this.tabPage1.Controls.Add(this.cbxCamaComer);
             this.tabPage1.Controls.Add(this.pnlConsulta);
             this.tabPage1.Controls.Add(this.dtpFechaAperturaEmp);
             this.tabPage1.Controls.Add(this.lblFechaApertura);
@@ -76,6 +80,36 @@
             this.tabPage1.Text = "Registrar";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // pnlConsulta
+            // 
+            this.pnlConsulta.Controls.Add(this.dgvDatos);
+            this.pnlConsulta.Controls.Add(this.btnConsultarCamComercio);
+            this.pnlConsulta.Location = new System.Drawing.Point(324, 6);
+            this.pnlConsulta.Name = "pnlConsulta";
+            this.pnlConsulta.Size = new System.Drawing.Size(282, 257);
+            this.pnlConsulta.TabIndex = 10;
+            // 
+            // dgvDatos
+            // 
+            this.dgvDatos.AllowUserToAddRows = false;
+            this.dgvDatos.AllowUserToDeleteRows = false;
+            this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDatos.Location = new System.Drawing.Point(48, 55);
+            this.dgvDatos.Name = "dgvDatos";
+            this.dgvDatos.ReadOnly = true;
+            this.dgvDatos.Size = new System.Drawing.Size(231, 202);
+            this.dgvDatos.TabIndex = 1;
+            // 
+            // btnConsultarCamComercio
+            // 
+            this.btnConsultarCamComercio.Location = new System.Drawing.Point(86, 26);
+            this.btnConsultarCamComercio.Name = "btnConsultarCamComercio";
+            this.btnConsultarCamComercio.Size = new System.Drawing.Size(170, 23);
+            this.btnConsultarCamComercio.TabIndex = 9;
+            this.btnConsultarCamComercio.Text = "Consultar Camaras de Comercio";
+            this.btnConsultarCamComercio.UseVisualStyleBackColor = true;
+            this.btnConsultarCamComercio.Click += new System.EventHandler(this.btnConsultarCamComercio_Click);
             // 
             // dtpFechaAperturaEmp
             // 
@@ -95,7 +129,7 @@
             // 
             // btnRegistratEmprDom
             // 
-            this.btnRegistratEmprDom.Location = new System.Drawing.Point(143, 198);
+            this.btnRegistratEmprDom.Location = new System.Drawing.Point(118, 223);
             this.btnRegistratEmprDom.Name = "btnRegistratEmprDom";
             this.btnRegistratEmprDom.Size = new System.Drawing.Size(75, 23);
             this.btnRegistratEmprDom.TabIndex = 5;
@@ -157,35 +191,23 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Empresa Domiciliaria";
             // 
-            // btnConsultarCamComercio
+            // cbxCamaComer
             // 
-            this.btnConsultarCamComercio.Location = new System.Drawing.Point(58, 26);
-            this.btnConsultarCamComercio.Name = "btnConsultarCamComercio";
-            this.btnConsultarCamComercio.Size = new System.Drawing.Size(170, 23);
-            this.btnConsultarCamComercio.TabIndex = 9;
-            this.btnConsultarCamComercio.Text = "Consultar Camaras de Comercio";
-            this.btnConsultarCamComercio.UseVisualStyleBackColor = true;
-            this.btnConsultarCamComercio.Click += new System.EventHandler(this.btnConsultarCamComercio_Click);
+            this.cbxCamaComer.FormattingEnabled = true;
+            this.cbxCamaComer.Location = new System.Drawing.Point(118, 166);
+            this.cbxCamaComer.Name = "cbxCamaComer";
+            this.cbxCamaComer.Size = new System.Drawing.Size(121, 21);
+            this.cbxCamaComer.TabIndex = 11;
             // 
-            // pnlConsulta
+            // lblIdCamCom
             // 
-            this.pnlConsulta.Controls.Add(this.dgvDatos);
-            this.pnlConsulta.Controls.Add(this.btnConsultarCamComercio);
-            this.pnlConsulta.Location = new System.Drawing.Point(324, 6);
-            this.pnlConsulta.Name = "pnlConsulta";
-            this.pnlConsulta.Size = new System.Drawing.Size(282, 257);
-            this.pnlConsulta.TabIndex = 10;
-            // 
-            // dgvDatos
-            // 
-            this.dgvDatos.AllowUserToAddRows = false;
-            this.dgvDatos.AllowUserToDeleteRows = false;
-            this.dgvDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDatos.Location = new System.Drawing.Point(3, 55);
-            this.dgvDatos.Name = "dgvDatos";
-            this.dgvDatos.ReadOnly = true;
-            this.dgvDatos.Size = new System.Drawing.Size(276, 202);
-            this.dgvDatos.TabIndex = 1;
+            this.lblIdCamCom.AutoSize = true;
+            this.lblIdCamCom.Location = new System.Drawing.Point(6, 174);
+            this.lblIdCamCom.Name = "lblIdCamCom";
+            this.lblIdCamCom.Size = new System.Drawing.Size(102, 13);
+            this.lblIdCamCom.TabIndex = 12;
+            this.lblIdCamCom.Text = "Id Camara Comercio";
+            this.lblIdCamCom.Click += new System.EventHandler(this.lblIdCamCom_Click);
             // 
             // frmEmpresaDomiciliaria
             // 
@@ -222,5 +244,7 @@
         private System.Windows.Forms.Button btnConsultarCamComercio;
         private System.Windows.Forms.Panel pnlConsulta;
         private System.Windows.Forms.DataGridView dgvDatos;
+        private System.Windows.Forms.ComboBox cbxCamaComer;
+        private System.Windows.Forms.Label lblIdCamCom;
     }
 }
