@@ -35,7 +35,7 @@ namespace appDomicilios
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            OracleConnection orac = new OracleConnection("DATA SOURCE = xe ; PASSWORD=1234; USER ID = DOMICILIARIA;");
+            OracleConnection orac = new OracleConnection("DATA SOURCE = xe ; PASSWORD=1234; USER ID = domicilios;");
             orac.Open();
             MessageBox.Show("Conectado");
             frmInterfazPrincipal obj = new frmInterfazPrincipal();

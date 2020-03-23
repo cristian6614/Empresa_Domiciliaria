@@ -16,19 +16,19 @@ namespace appDomicilios
         {
             InitializeComponent();
         }
-      clsCamaraComercio objCamara = new clsCamaraComercio();
 
+        clsCamaraComercio objCamara = new clsCamaraComercio();
         //cuando se presiona el boton registrar
         private void button1_Click(object sender, EventArgs e)
         {
-
             String nombre = null;
             int identificacion = 0, resultado = 0;
             nombre = txtNombre.Text;
             identificacion = int.Parse (txtIdentificacion.Text);
-       
 
-            resultado = objCamara.registrarCamaraComercio(identificacion, nombre);
+            objCamara.setcodigo(identificacion);
+            objCamara.setnombre(nombre);
+            resultado = objCamara.registrarCamaraComercio();
             if (resultado > 0)
             {
                 MessageBox.Show("Camara de Comercio Registrada", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
