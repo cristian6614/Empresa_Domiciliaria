@@ -40,18 +40,17 @@
             // 
             this.panel1.Controls.Add(this.btnConectar);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(50, 52);
+            this.panel1.Location = new System.Drawing.Point(12, 36);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(618, 331);
+            this.panel1.Size = new System.Drawing.Size(608, 360);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::appDomicilios.Properties.Resources.domicilios;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(618, 331);
+            this.pictureBox1.Size = new System.Drawing.Size(608, 357);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -60,7 +59,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(252, 9);
+            this.label2.Location = new System.Drawing.Point(193, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 24);
             this.label2.TabIndex = 1;
@@ -68,9 +67,9 @@
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(218, 230);
+            this.btnConectar.Location = new System.Drawing.Point(185, 275);
             this.btnConectar.Name = "btnConectar";
-            this.btnConectar.Size = new System.Drawing.Size(144, 39);
+            this.btnConectar.Size = new System.Drawing.Size(174, 39);
             this.btnConectar.TabIndex = 4;
             this.btnConectar.Text = "CONECTAR";
             this.btnConectar.UseVisualStyleBackColor = true;
@@ -80,7 +79,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(766, 408);
+            this.ClientSize = new System.Drawing.Size(632, 408);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "frmInterfazIncial";

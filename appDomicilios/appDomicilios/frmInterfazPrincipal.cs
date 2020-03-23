@@ -33,11 +33,17 @@ namespace appDomicilios
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            frmEmpresaDomiciliaria obj = new frmEmpresaDomiciliaria();
+            this.Hide();
+            obj.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            frmDomiciliario obj = new frmDomiciliario();
+            this.Hide();
+            obj.Show();
+
 
         }
     }
