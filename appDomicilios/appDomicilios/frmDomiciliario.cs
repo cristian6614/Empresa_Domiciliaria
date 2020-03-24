@@ -19,11 +19,26 @@ namespace appDomicilios
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //registrar domiciliario
+
+            String varApellido, varNombre, varAnios, varEstado = "";
+            int varId, resultado;
+
+            varId = int.Parse(txtId.Text);
+            varNombre = txtNombre.Text;
+            varApellido = txtApellido.Text;
 
 
 
 
+            resultado = 0;
+        }
 
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            frmInterfazPrincipal objInterfaz = new frmInterfazPrincipal();
+            this.Hide();
+            objInterfaz.Show();
 
         }
     }

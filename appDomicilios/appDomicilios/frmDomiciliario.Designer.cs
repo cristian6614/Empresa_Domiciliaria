@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tbcGestionarDomiciliario = new System.Windows.Forms.TabControl();
+            this.tbpRegistro = new System.Windows.Forms.TabPage();
             this.btnVolver = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,45 +41,49 @@
             this.btnRegistrar = new System.Windows.Forms.Button();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtId = new System.Windows.Forms.TextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tbpActualizar = new System.Windows.Forms.TabPage();
             this.tblEtiqueta = new System.Windows.Forms.Label();
             this.rbActivo = new System.Windows.Forms.RadioButton();
             this.rbInactivo = new System.Windows.Forms.RadioButton();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.cbxAniosExperiencia = new System.Windows.Forms.ComboBox();
+            this.tbpEliminar = new System.Windows.Forms.TabPage();
+            this.tbcGestionarDomiciliario.SuspendLayout();
+            this.tbpRegistro.SuspendLayout();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tbcGestionarDomiciliario
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(65, 46);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(538, 354);
-            this.tabControl1.TabIndex = 1;
+            this.tbcGestionarDomiciliario.Controls.Add(this.tbpRegistro);
+            this.tbcGestionarDomiciliario.Controls.Add(this.tbpActualizar);
+            this.tbcGestionarDomiciliario.Controls.Add(this.tbpEliminar);
+            this.tbcGestionarDomiciliario.Location = new System.Drawing.Point(65, 46);
+            this.tbcGestionarDomiciliario.Name = "tbcGestionarDomiciliario";
+            this.tbcGestionarDomiciliario.SelectedIndex = 0;
+            this.tbcGestionarDomiciliario.Size = new System.Drawing.Size(538, 354);
+            this.tbcGestionarDomiciliario.TabIndex = 1;
             // 
-            // tabPage1
+            // tbpRegistro
             // 
-            this.tabPage1.Controls.Add(this.rbInactivo);
-            this.tabPage1.Controls.Add(this.rbActivo);
-            this.tabPage1.Controls.Add(this.btnVolver);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.txtApellido);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.btnRegistrar);
-            this.tabPage1.Controls.Add(this.txtNombre);
-            this.tabPage1.Controls.Add(this.txtId);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(530, 328);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Registrar";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tbpRegistro.Controls.Add(this.cbxAniosExperiencia);
+            this.tbpRegistro.Controls.Add(this.rbInactivo);
+            this.tbpRegistro.Controls.Add(this.rbActivo);
+            this.tbpRegistro.Controls.Add(this.btnVolver);
+            this.tbpRegistro.Controls.Add(this.label5);
+            this.tbpRegistro.Controls.Add(this.label3);
+            this.tbpRegistro.Controls.Add(this.txtApellido);
+            this.tbpRegistro.Controls.Add(this.label1);
+            this.tbpRegistro.Controls.Add(this.label4);
+            this.tbpRegistro.Controls.Add(this.label2);
+            this.tbpRegistro.Controls.Add(this.btnRegistrar);
+            this.tbpRegistro.Controls.Add(this.txtNombre);
+            this.tbpRegistro.Controls.Add(this.txtId);
+            this.tbpRegistro.Location = new System.Drawing.Point(4, 22);
+            this.tbpRegistro.Name = "tbpRegistro";
+            this.tbpRegistro.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpRegistro.Size = new System.Drawing.Size(530, 328);
+            this.tbpRegistro.TabIndex = 0;
+            this.tbpRegistro.Text = "Registrar";
+            this.tbpRegistro.UseVisualStyleBackColor = true;
             // 
             // btnVolver
             // 
@@ -89,6 +93,7 @@
             this.btnVolver.TabIndex = 17;
             this.btnVolver.Text = "Volver";
             this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // label5
             // 
@@ -171,21 +176,21 @@
             this.txtId.Size = new System.Drawing.Size(100, 20);
             this.txtId.TabIndex = 3;
             // 
-            // tabPage2
+            // tbpActualizar
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(530, 328);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tbpActualizar.Location = new System.Drawing.Point(4, 22);
+            this.tbpActualizar.Name = "tbpActualizar";
+            this.tbpActualizar.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpActualizar.Size = new System.Drawing.Size(530, 328);
+            this.tbpActualizar.TabIndex = 1;
+            this.tbpActualizar.Text = "Actualizar";
+            this.tbpActualizar.UseVisualStyleBackColor = true;
             // 
             // tblEtiqueta
             // 
             this.tblEtiqueta.AutoSize = true;
             this.tblEtiqueta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tblEtiqueta.Location = new System.Drawing.Point(319, 27);
+            this.tblEtiqueta.Location = new System.Drawing.Point(301, 27);
             this.tblEtiqueta.Name = "tblEtiqueta";
             this.tblEtiqueta.Size = new System.Drawing.Size(91, 16);
             this.tblEtiqueta.TabIndex = 9;
@@ -213,18 +218,40 @@
             this.rbInactivo.Text = "Inactivo";
             this.rbInactivo.UseVisualStyleBackColor = true;
             // 
+            // cbxAniosExperiencia
+            // 
+            this.cbxAniosExperiencia.FormattingEnabled = true;
+            this.cbxAniosExperiencia.Items.AddRange(new object[] {
+            "menor de 5 años",
+            "5 y 10 años",
+            "de 11 a 20 años",
+            "mas de 20 años"});
+            this.cbxAniosExperiencia.Location = new System.Drawing.Point(210, 131);
+            this.cbxAniosExperiencia.Name = "cbxAniosExperiencia";
+            this.cbxAniosExperiencia.Size = new System.Drawing.Size(121, 21);
+            this.cbxAniosExperiencia.TabIndex = 20;
+            // 
+            // tbpEliminar
+            // 
+            this.tbpEliminar.Location = new System.Drawing.Point(4, 22);
+            this.tbpEliminar.Name = "tbpEliminar";
+            this.tbpEliminar.Size = new System.Drawing.Size(530, 328);
+            this.tbpEliminar.TabIndex = 2;
+            this.tbpEliminar.Text = "Eliminar";
+            this.tbpEliminar.UseVisualStyleBackColor = true;
+            // 
             // frmDomiciliario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(652, 443);
             this.Controls.Add(this.tblEtiqueta);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tbcGestionarDomiciliario);
             this.Name = "frmDomiciliario";
             this.Text = "Domiciliario";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.tbcGestionarDomiciliario.ResumeLayout(false);
+            this.tbpRegistro.ResumeLayout(false);
+            this.tbpRegistro.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,12 +260,12 @@
         #endregion
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabControl tbcGestionarDomiciliario;
+        private System.Windows.Forms.TabPage tbpRegistro;
         private System.Windows.Forms.Button btnRegistrar;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tbpActualizar;
         private System.Windows.Forms.Button btnVolver;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
@@ -249,5 +276,7 @@
         private System.Windows.Forms.Label tblEtiqueta;
         private System.Windows.Forms.RadioButton rbInactivo;
         private System.Windows.Forms.RadioButton rbActivo;
+        private System.Windows.Forms.ComboBox cbxAniosExperiencia;
+        private System.Windows.Forms.TabPage tbpEliminar;
     }
 }
