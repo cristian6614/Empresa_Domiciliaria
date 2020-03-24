@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using appDomicilios.accesoDatos;
 namespace appDomicilios.logica
-
+{ 
     class clsDomiciliario
     {
 
@@ -25,16 +25,17 @@ namespace appDomicilios.logica
         {
            int result;
            string consulta; 
-           consulta = "UPDATE domiciliario SET domNombre = 'adf ', domApellido = 'adf ',  domEstado = 'activo', domaniosexperiencia = 0 WHERE domId= 100";
+           consulta = "UPDATE domiciliario SET domNombre = '"+parNombre+" ', domApellido = '"+parApellido+"',  domEstado = '"+parEstado+"'," +
+            " domaniosexperiencia = "+parAnios+" WHERE domId = "+parId;
            result = dt.ejecutarDML(consulta);
            return result;
         }
 
-           public int eliminarDomiciliario(int parId, string parNombre, string parApellido, int parAnios, string parEstado)
+           public int eliminarDomiciliario(int parId)
         {
            int result;
            string consulta; 
-           consulta = "";
+           consulta = "delete from domiciliario where domId = "+parId;
            result = dt.ejecutarDML(consulta);
            return result;
         }
