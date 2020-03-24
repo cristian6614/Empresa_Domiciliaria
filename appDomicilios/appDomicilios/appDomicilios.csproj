@@ -106,6 +106,7 @@
     <Compile Include="logica\clsDomiciliario.cs" />
     <Compile Include="logica\clsEmpresaDomiciliaria.cs" />
     <Compile Include="logica\clsProgram.cs" />
+    <Compile Include="logica\validarCampos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmInterfazPrincipal.resx">
       <DependentUpon>frmInterfazPrincipal.cs</DependentUpon>

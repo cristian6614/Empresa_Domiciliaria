@@ -27,11 +27,27 @@ namespace appDomicilios
             varId = int.Parse(txtId.Text);
             varNombre = txtNombre.Text;
             varApellido = txtApellido.Text;
+            if (rbActivo.Checked)
+            {
+                varEstado = "hembra";
+            }
+            else if (rbInactivo.Checked)
+            {
+                varEstado = "macho";
+            }
+            varAnios = cbxAniosExperiencia.Text;
 
-
-
-
-            resultado = 0;
+            /* enviar resultado a la logica.domiciliario*/
+              resultado = 0;
+            /* mensaje en pantalla*/
+            if (resultado > 0)
+            {
+                MessageBox.Show("Domiciliario Registrado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Domiciliario No Registrado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnVolver_Click(object sender, EventArgs e)

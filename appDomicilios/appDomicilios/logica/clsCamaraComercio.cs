@@ -1,5 +1,4 @@
 ﻿using appDomicilios.accesoDatos;
-using System.Security.Cryptography.X509Certificates;
 using System.Data;
 
 namespace appDomicilios.logica
